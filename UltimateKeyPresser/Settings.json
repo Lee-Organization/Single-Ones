@@ -1,7 +1,0 @@
-{
-  "theme": "dark",
-  "emergency_stop": "f12",
-  "emergency_key_exception": false,
-  "max_speed": 100,
-  "pin_to_top": true
-}
